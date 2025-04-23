@@ -6,7 +6,7 @@ import Aprendices from './typesCarnets/aprendiz';
 import Instructores from './typesCarnets/instructor';
 import Administrativos from './typesCarnets/administrativos';
 
-const carnetadministrador = () => {
+const CarnetAdministrador = () => {
     const [activeItem, setActiveItem] = useState(null);
     const navigate = useNavigate();
 
@@ -97,4 +97,4 @@ const carnetadministrador = () => {
     );
 };
 
-export default carnetadministrador;
+export default CarnetAdministrador;
